@@ -1,0 +1,68 @@
+.homebanner {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+.homebannerLeft {
+  width: 50%;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.homebannerLeft .icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.homebannerLeft .icons img {
+  width: 4rem;
+  height: 4rem;
+}
+.imagecover {
+  position: relative;
+}
+.darklight {
+  position: absolute;
+  width: 1.5rem;
+}
+
+.homebannerright {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background-color-two);
+  color: var(--color-two);
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0;
+}
+.frontend {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.homebannerright span {
+  padding: 0 7rem;
+}
+.homebannerright .name {
+  font-weight: 400;
+}
+.bannerpara {
+  margin-bottom: 5rem;
+  width: 33ch;
+}
+.CV {
+  background-color: var(--background-color);
+  color: var(--color);
+  border: none;
+  padding: 0.6rem 2rem;
+  margin-top: 5px;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+}
