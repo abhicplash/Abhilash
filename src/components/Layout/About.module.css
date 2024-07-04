@@ -1,0 +1,136 @@
+.aboutmain {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+.abouthead {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid; */
+  width: 100%;
+  height: 5rem;
+}
+.abouthead .aboutheadmain {
+  /* position: absolute; */
+  top: -2rem;
+  font-size: 5rem;
+  color: var(--about-text-color);
+}
+.aboutheadsub {
+  position: absolute;
+  top: 10%;
+  /* border: none; */
+}
+.aboutdetailsmain {
+  width: 100%;
+  /* height: 80vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.aboutimagecover {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+}
+.aboutmeimg {
+  height: 22rem;
+  width: 16rem;
+  position: relative;
+  z-index: 1;
+}
+.coverposimg {
+  position: relative;
+}
+.aboutimageborder {
+  height: 21rem;
+  width: 15rem;
+  border: 0.6rem solid var(--background-color-two);
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 0;
+}
+.aboutdetailscover {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.iconsList {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--color);
+}
+.aboutnameDetails {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.aboutparaDetails {
+  width: 45ch;
+  text-align: justify;
+}
+.skillitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  position: relative;
+  /* flex-direction: column; */
+}
+.skillsList {
+  display: flex;
+  gap: 1rem;
+
+  /* justify-content: space-; */
+}
+.skillHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+@media (max-width: 426px) {
+  .aboutmeimg {
+    height: 18rem;
+    width: 14rem;
+  }
+  .aboutimageborder {
+    width: 13rem;
+    height: 17rem;
+    top: 1rem;
+    left: 1rem;
+  }
+  .aboutdetailscover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .aboutdetailsmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .aboutnameDetails {
+    font-size: 2.5rem;
+  }
+  .aboutparaDetails {
+    width: 90%;
+    text-align: center;
+  }
+  .skillsList{
+    flex-direction: column;
+  }
+}

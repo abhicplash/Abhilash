@@ -1,0 +1,24 @@
+.imagecover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectimageborder {
+  position: absolute;
+  width: 25rem;
+  height: 15rem;
+  border: 0.6rem solid var(--color-two);
+  border-radius: 10px;
+  top: 1rem;
+  right: 1rem;
+  z-index: 0;
+}
+.projectImage {
+  width: 26rem;
+  height: 16rem;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  border: 1px solid var(--color-two);
+}

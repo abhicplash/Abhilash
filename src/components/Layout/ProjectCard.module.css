@@ -1,0 +1,10 @@
+.PcardMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10rem;
+  align-items: center;
+  padding: 3rem 0rem 5rem 0 ;
+}

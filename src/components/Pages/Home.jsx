@@ -1,11 +1,18 @@
 import React from "react";
 import HomeBanner from "../Layout/HomeBanner";
+import About from "../Layout/About";
+import Layout from "../Layout/Layout";
+import Projects from "../Layout/Projects";
 
 function Home() {
   return (
-    <>
-      <HomeBanner />
-    </>
+    <Layout>
+      <>
+        <HomeBanner />
+        <About />
+        <Projects/>
+      </>
+    </Layout>
   );
 }
 

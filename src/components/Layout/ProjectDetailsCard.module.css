@@ -1,0 +1,23 @@
+.ProjectDetailsWrapper {
+  display: flex;
+  width: 100%;
+  gap: 5rem;
+}
+.detailsMain {
+  width: 30rem;
+  /* border: 1px solid; */
+  color: var(--color-two);
+}
+.projectname {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.externalLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: var(--color-two);
+  background-color: transparent;
+}

@@ -20,7 +20,7 @@ function HomeBanner() {
     <div className={styles.homebanner}>
       <div className={styles.homebannerLeft}>
         <div className={styles.imagecover}>
-          <img src={abimage} alt="profile" />
+          <img src={abimage} alt="profile" className={styles.abimg} />
           <img
             src={themeIcon}
             alt="switch"
@@ -32,6 +32,9 @@ function HomeBanner() {
           <img src={gitIcon} alt="" />
           <img src={LnIcon} alt="" />
         </div>
+        <a href={CV} download className={styles.cv1}>
+            <button className={styles.CV}>Resume</button>
+          </a>
       </div>
       <div className={styles.homebannerright}>
         <span className={styles.name}>Abhilash CP</span>
@@ -39,11 +42,14 @@ function HomeBanner() {
           Frontend <br /> developer
         </span>
         <span className={styles.bannerpara}>
-          Frontend Developer with a track record of successfully delivering
-          polished and intuitive user interfaces. Hands-on experience in
-          crafting responsive and cross-browser compatible websites and web
-          applications.
-          <br />
+          <p>
+            {" "}
+            Frontend Developer with a track record of successfully delivering
+            polished and intuitive user interfaces. Hands-on experience in
+            crafting responsive and cross-browser compatible websites and web
+            applications.
+          </p>
+          {/* <br /> */}
           <a href={CV} download>
             <button className={styles.CV}>Resume</button>
           </a>
